@@ -1,14 +1,14 @@
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Alireza."
-  subtitle: "Python Developer"
-  description: "I currently study at <a target='_blank' href='http://bi-st.com/'>Towheed School</a>, a high school located in Dubai. A true tech enthusiast that enjoys discovering new things and learning more since knowledge is power.<br> loves Open-source, tinkering with hardware, and reading books alongside education."
+  title: "Hello, I’m Andreas."
+  subtitle: "Front-End Developer"
+  description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
   image:
-    x: "img/showcase/code.png"
-    _2x: "img/showcase/code.png"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
   imageMobile:
-    x: "img/showcase/code.png"
+    x: "img/showcase/showcase-mobile.jpg"
 
   button:
     icon: "icon-mail-fill"
@@ -17,13 +17,13 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://linkedin.com/in/baloochi"
+      URL: "https://www.linkedin.com/company/radity/"
 
     - icon: "github"
-      URL: "https://github.com/fillthegap"
+      URL: "https://github.com/radity"
 
     - icon: "twitter"
-      URL: "https://twitter.com/Baloochi2002"
+      URL: "https://twitter.com/radity"
 
     - icon: "dribbble"
       URL: "https://dribbble.com/radity"

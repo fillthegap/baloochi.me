@@ -1,4 +1,4 @@
-baseURL = "fillthegap.github.io"
+baseURL = "https://raditian-hugo.radity.com/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
