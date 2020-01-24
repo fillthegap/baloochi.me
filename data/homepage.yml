@@ -3,12 +3,12 @@ showcase:
   enable: true
   title: "Hello, I’m Alireza."
   subtitle: "Python Developer"
-  description: "I study at <a target='_blank' href='http://bi-st.com/'>Towheed School</a>, a high school located in Dubai. A true tech-savy that enjoys Linux, hardware tinkering and leadership."
+  description: "I currently study at <a target='_blank' href='http://bi-st.com/'>Towheed School</a>, a high school located in Dubai. A true tech enthusiast that enjoys discovering new things and learning more since knowledge is power.<br> loves Open-source, tinkering with hardware, and reading books alongside education."
   image:
-    x: "img/showcase/showcase.png"
-    _2x: "img/showcase/showcase@2x.png"
+    x: "img/showcase/code.png"
+    _2x: "img/showcase/code.png"
   imageMobile:
-    x: "img/showcase/showcase-mobile.png"
+    x: "img/showcase/code.png"
 
   button:
     icon: "icon-mail-fill"
@@ -17,7 +17,7 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
-      URL: "www.linkedin.com/in/baloochi"
+      URL: "https://linkedin.com/in/baloochi"
 
     - icon: "github"
       URL: "https://github.com/fillthegap"
