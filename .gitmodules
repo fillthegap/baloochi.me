@@ -2,3 +2,7 @@
 	path = publicز
 	url = https://github.com/fillthegap/fillthegap.github.io.git
 	branch = master
+[submodule "publicc"]
+	path = publicc
+	url = https://github.com/fillthegap/fillthegap.github.io.git
+	branch = master
