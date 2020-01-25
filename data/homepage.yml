@@ -1,29 +1,29 @@
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Andreas."
-  subtitle: "Front-End Developer"
-  description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+  title: "Hello, I’m Alireza."
+  subtitle: "Python Developer"
+  description: "I study at <a target='_blank' href='https://bi-st.com/'>Towheed</a>, a high school located in Dubai, UAE. I enjoy learning new stuff since knowledge is power. <br> I'm an open-source fan, leader and a good manager with a great academic background."
   image:
-    x: "img/showcase/showcase.png"
-    _2x: "img/showcase/showcase@2x.png"
+    x: "img/showcase/code.png"
+    _2x: "img/showcase/code.png"
   imageMobile:
-    x: "img/showcase/showcase-mobile.jpg"
+    x: "img/showcase/code.png"
 
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    URL: "mailto:alirezab806@gmail.com"
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/company/radity/"
+      URL: "https://www.linkedin.com/in/baloochi/"
 
     - icon: "github"
-      URL: "https://github.com/radity"
+      URL: "https://github.com/fillthegap"
 
     - icon: "twitter"
-      URL: "https://twitter.com/radity"
+      URL: "https://twitter.com/baloochi2002"
 
     - icon: "dribbble"
       URL: "https://dribbble.com/radity"
@@ -65,8 +65,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/company/radity/"
   image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+    x: "img/who-am-i/oo2.png"
+    _2x: "img/who-am-i/oo2.png"
 
 # education
 education:
