@@ -25,25 +25,25 @@ showcase:
     - icon: "twitter"
       URL: "https://twitter.com/baloochi2002"
 
-    - icon: "dribbble"
+    - icon: "1dribbble"
       URL: "https://dribbble.com/radity"
 
-    - icon: "behance"
+    - icon: "1behance"
       URL: "https://www.behance.net/radity-digital"
 
     - icon: "youtube"
       URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
 
-    - icon: "instagram"
+    - icon: "1instagram"
       URL: "https://www.instagram.com/teamradity/"
 
-    - icon: "facebook"
+    - icon: "1facebook"
       URL: "https://www.facebook.com/raditycom/"
 
-    - icon: "codepen"
+    - icon: "1codepen"
       URL: "#"
 
-    - icon: "yelp"
+    - icon: "1yelp"
       URL: "https://www.yelp.com/"
 
 # about
@@ -65,8 +65,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/company/radity/"
   image:
-    x: "img/who-am-i/oo2.png"
-    _2x: "img/who-am-i/oo2.png"
+    x: "img/who-am-i/oo3.png"
+    _2x: 
 
 # education
 education:
