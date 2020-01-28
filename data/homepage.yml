@@ -25,25 +25,25 @@ showcase:
     - icon: "twitter"
       URL: "https://twitter.com/baloochi2002"
 
-    - icon: "1dribbble"
-      URL: "https://dribbble.com/radity"
+    - icon: "dribbble"
+      URL: "https://t.me/FillTheGap"
 
-    - icon: "1behance"
-      URL: "https://www.behance.net/radity-digital"
+    - icon: "behance"
+      URL: "https://www.behance.net/"
 
     - icon: "youtube"
-      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+      URL: "https://www.youtube.com/channel/"
 
-    - icon: "1instagram"
-      URL: "https://www.instagram.com/teamradity/"
+    - icon: "instagram"
+      URL: "https://www.instagram.com/"
 
-    - icon: "1facebook"
-      URL: "https://www.facebook.com/raditycom/"
+    - icon: "facebook"
+      URL: "https://www.facebook.com/"
 
-    - icon: "1codepen"
+    - icon: "codepen"
       URL: "#"
 
-    - icon: "1yelp"
+    - icon: "yelp"
       URL: "https://www.yelp.com/"
 
 # about
@@ -51,19 +51,16 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
+    Alireza Baloochi, 17, resident of UAE that does casual coding and system administration as a hobby alongside maths and physics.
+    Reads bussiness books on his free time, and "Verstande Deutsch", With good writing skills and loves rock music.  
     </p>
     <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
+    I enjoy writting python, mess with shell commands, and even designing this website, along with listening to comments on how to improve each of my skills, and gain new ones.
     </p>'
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/baloochi/"
   image:
     x: "img/who-am-i/oo3.png"
     _2x: 
@@ -73,40 +70,40 @@ education:
   enable: true
   title: "Education"
   items:
-    - university: "University of Waterloo"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+    - university: "Adab International school"
+      year: "2011-2017"
+      degree: "Primary and part of secondary school"
 
-    - university: "Sir John A Macdonald CI"
-      year: "2009-2012"
-      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+    - university: "Towheed school - Boys"
+      year: "2017 - present"
+      degree: "High School Diploma, in maths and physics"
 
 # experience
 experience:
   enable: true
   title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  description: "20 certifications form different institutions, Including Google, KHDA, IBT, Olympiad Foundation, University of wollongong, Robocup competition, Messe Frankfurt, MBRSC, Tehran Internet Corporation and much more."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/baloochi/"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
     URL: "#"
 
   items:
-    - title: "Sr. Front-End Developer"
-      company: "Radity"
-      duration: "Feb 2011 - Sep 2019"
+    - title: "Mentor"
+      company: "Google Code-in"
+      duration: "Dec 2019 - Jan 2020"
 
-    - title: "Sr. Front-End Developer"
-      company: "Textic"
-      duration: "Apr 2010 - Jan 2011"
+    - title: "Linux System Administrator"
+      company: "Tehran Internet Corporation"
+      duration: "Jul 2019 - Aug 2019"
 
-    - title: "Jr. Front-End Developer"
-      company: "Cyberse"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "Exhibitor"
+      company: "Knowledge and Human Development Authority"
+      duration: "Feb 2017"
 
 # Client & Work
 client_and_work:
@@ -115,9 +112,9 @@ client_and_work:
 
   clients:
     - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
+        x: "img/clients/codein.png"
+        _2x: ""
+      alt: "codein"
 
     - logo:
         x: "img/clients/earth-2.png"
