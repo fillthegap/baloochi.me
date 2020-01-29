@@ -61,9 +61,9 @@ about:
     icon: "icon-smile-fill"
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/baloochi/"
-  image:
+  image: 
     x: "img/who-am-i/oo3.png"
-    _2x: 
+    _2x: "img/who-am-i/oo3.png"
 
 # education
 education:
@@ -111,27 +111,27 @@ client_and_work:
   enable: true
 
   clients:
-    - logo:
+    - logo: 
         x: "img/clients/codein.png"
         _2x: "img/clients/codein.png"
       alt: "codein"
 
-    - logo:
+    - logo: 
         x: "img/clients/robo.png"
         _2x: "img/clients/robo.png"
       alt: "Robocup"
 
-    - logo:
+    - logo: 
         x: "img/clients/khda.png"
         _2x: "img/clients/khda.png"
       alt: "Goldline"
 
-    - logo:
+    - logo: 
         x: "img/clients/oly.png"
         _2x: img/clients/oly.png"
       alt: "olympiad"
 
-    - logo:
+    - logo: 
         x: "img/clients/tehran.png"
         _2x: "img/clients/tehran.png"
       alt: "Tehran Internet"
