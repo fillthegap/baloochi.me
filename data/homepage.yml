@@ -129,7 +129,7 @@ client_and_work:
     - logo:
         x: "img/clients/oly.png"
         _2x: img/clients/oly.png"
-      alt: "Kanba"
+      alt: "olympiad"
 
     - logo:
         x: "img/clients/tehran.png"
