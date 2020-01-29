@@ -117,29 +117,29 @@ client_and_work:
       alt: "codein"
 
     - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
+        x: "img/clients/robo.png"
+        _2x: ""
+      alt: "Robocup"
 
     - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
+        x: "img/clients/khda.png"
+        _2x: ""
       alt: "Goldline"
 
     - logo:
-        x: "img/clients/kanba.png"
+        x: "img/clients/oly.png"
         _2x: "img/clients/kanba@2x.png"
       alt: "Kanba"
 
     - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
+        x: "img/clients/tehran.png"
+        _2x: ""
+      alt: "Tehran Internet"
 
     - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
+        x: ""
+        _2x: ""
+      alt: ""
 
   works:
     - title: "Radity Finance - UI Kit"
