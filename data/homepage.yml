@@ -128,7 +128,7 @@ client_and_work:
 
     - logo: 
         x: "img/clients/oly.png"
-        _2x: img/clients/oly.png"
+        _2x: "img/clients/oly.png"
       alt: "olympiad"
 
     - logo: 
@@ -142,15 +142,15 @@ client_and_work:
       alt: ""
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "Ranked First in Robocup 2018 on-stage"
+      description: "Our team 'Pioneers' won the first place in Robocup on-stage @ Dubai."
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "img/works/robo.png"
+        _2x: "img/works/robo.png"
       is_even: true
 
     - title: "Swiss Fintech Website"
