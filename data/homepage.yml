@@ -3,10 +3,9 @@ showcase:
   enable: true
   title: "Hello, I’m Alireza."
   subtitle: "Python Developer"
-  description: "I study at <a target='_blank' href='https://bi-st.com/'>Towheed</a>, a high school located in Dubai, UAE. I enjoy learning new stuff since knowledge is power. <br> I'm an open-source fan, leader and a good manager with a great academic background."
+  description: "I study at <a target='_blank' href='https://bi-st.com/'>Towheed</a>, a high school located in Dubai, UAE. I enjoy learning new stuff since knowledge is power. <br> I like to code, design ,manage servers and document them."
   image:
     x: "img/showcase/code.png"
-    _2x: "img/showcase/code.png"
   imageMobile:
     x: "img/showcase/code.png"
 
@@ -25,26 +24,8 @@ showcase:
     - icon: "twitter"
       URL: "https://twitter.com/baloochi2002"
 
-    - icon: "dribbble"
-      URL: "https://t.me/FillTheGap"
-
-    - icon: "behance"
-      URL: "https://www.behance.net/"
-
     - icon: "youtube"
-      URL: "https://www.youtube.com/channel/"
-
-    - icon: "instagram"
-      URL: "https://www.instagram.com/"
-
-    - icon: "facebook"
-      URL: "https://www.facebook.com/"
-
-    - icon: "codepen"
-      URL: "#"
-
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
+      URL: "https://www.youtube.com/channel/UCKzJfoO6tMF6pqCVtgqSO3Q?view_as=subscriber"
 
 # about
 about:
@@ -63,7 +44,6 @@ about:
     URL: "https://www.linkedin.com/in/baloochi/"
   image: 
     x: "img/who-am-i/oo3.png"
-    _2x: "img/who-am-i/oo3.png"
 
 # education
 education:
@@ -82,7 +62,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "20 certifications form different institutions, Including Google, KHDA, IBT, Olympiad Foundation, University of wollongong, Robocup competition, Messe Frankfurt, MBRSC, Tehran Internet Corporation and much more."
+  description: "20 certifications form different institutions, Including Google, KHDA, IBT, Olympiad Foundation, University of Wollongong, Robocup competition, Messe Frankfurt, MBRSC, Tehran Internet Corporation and much more."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -113,34 +93,24 @@ client_and_work:
   clients:
     - logo: 
         x: "img/clients/codein.png"
-        _2x: "img/clients/codein.png"
       alt: "codein"
 
     - logo: 
         x: "img/clients/robo.png"
-        _2x: "img/clients/robo.png"
       alt: "Robocup"
 
     - logo: 
         x: "img/clients/khda.png"
-        _2x: "img/clients/khda.png"
       alt: "Goldline"
 
     - logo: 
         x: "img/clients/oly.png"
-        _2x: "img/clients/oly.png"
       alt: "olympiad"
 
     - logo: 
         x: "img/clients/tehran.png"
-        _2x: "img/clients/tehran.png"
       alt: "Tehran Internet"
-
-    - logo:
-        x: ""
-        _2x: ""
-      alt: ""
-
+      
   works:
     - title: "Ranked First in Robocup 2018 on-stage"
       description: "Our team 'Pioneers' won the first place in Robocup on-stage @ Dubai."
@@ -150,29 +120,27 @@ client_and_work:
         URL: "#"
       image:
         x: "img/works/robo.png"
-        _2x: "img/works/robo.png"
       is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    - title: "Curtin University STEM Challenge"
+      description: "Participated in Curtin Univeristy STEM Challenge"
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/works/curtin.png"
       is_even: false
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+    - title: "Photographer"
+      description: "My photographs were chosen by Fedora project and nature news agencies in Iran."
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+        x: "img/works/photo.png"
+        _2x: "img/works/photo.png"
       is_even: true
 
 # testimonial
@@ -180,26 +148,23 @@ testimonial:
   enable: true
   title: "Testimonials"
   items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+    - name: "Alireza Ghadak saz"
+      position: "Javascript Developer"
+      content: "Today's junior, tomorrow's expert. That's how I define him."
       image:
         x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
 
     - name: "Jonathan Peters"
       position: "Textic, CEO"
       content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
       image:
         x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
 
     - name: "Antonio Willis"
       position: "Cyberse, CEO"
       content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
       image:
         x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
 
 # contact
 contact:
@@ -211,22 +176,14 @@ contact:
     email: "Email Address"
     message: "Type Your Message Here"
   phone:
-    title: "Phone Number"
-    number: "+41 (44) 505 10 99"
+    title: "Post Code"
+    number: "17 (for local shipping only!)"
   email:
     title: "Email"
-    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+    email: '<a href="mailto:alirezab806@gmail.com">alirezab806@gmail.com</a>'
   address:
     title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+    address: "Dubai, United Arab Emirates"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
-
-# newsletter
-newsletter:
-  enable: true
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
