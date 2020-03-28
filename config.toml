@@ -1,57 +1,154 @@
-baseURL = "https://fillthegap.github.io"
-languageCode = "en-us"
+baseURL = "https://baloochi.me"
+title   = "Alireza Baloochi"
 
-# Plugins
-[params.plugins]
+DefaultContentLanguage = "en"
 
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "css/main.css"
-  [[params.plugins.css]]
-  URL = "css/rad-icons.css"
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
-# navigation
-[menu]
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-  [[menu.header]]
-  name = "About"
-  URL = "#about"
-  weight = 2
+# googleAnalytics = ""
+# disqusShortname = ""
 
-  [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
 
-  [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
 
-  [[menu.footer]]
-  name = "About"
-  URL = "#about"
-  weight = 2
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
 
-  [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
 
-  [[menu.footer]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
+[author]
+  name = ""
 
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
 
 [params]
-  [params.logo]
-    text1 = "Alireza"
-    text2 = "Baloochi"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-  [params.footer]
-      copyright = "This site is available under MIT License."
-      [params.footer.radity_logo]
-        x = "img/general/github.png"
-        _2x = "img/general/githubx2.png"
-        alt = "Github"
+  # Metadata mostly used in document's head
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
+  images = [""]
+
+  homeSubtitle = "System Administrator"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  # Social icons
+[[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/baloochi"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:alirezab806@gmail.com"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/fillthegapz"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/fillthegap"
+
+[[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.com/fillthegap"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/13139722/alireza-baloochi"
+
+  [[params.social]]
+    name = "reddit"
+    url  = "https://www.reddit.com/user/Fillthegap2"
+
+  [[params.social]]
+    name = "telegram"
+    url  = "https://t.me/fillthegap"
+
+[languages]
+  [languages.en]
+    subtitle  = ""
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">License</a>'
+
+  [languages.fr]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">L</a>'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+  [[menu.main]]
+    identifier = "photographs"
+    name       = "Photographs"
+    url        = "photographs/"
