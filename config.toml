@@ -106,7 +106,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/fillthegapz"
+    url  = "https://twitter.com/_baloochi"
 
   [[params.social]]
     name = "github"
@@ -120,9 +120,9 @@ disableHugoGeneratorInject = false
     name = "stackoverflow"
     url  = "https://stackoverflow.com/users/13139722/alireza-baloochi"
 
-  [[params.social]]
-    name = "reddit"
-    url  = "https://www.reddit.com/user/Fillthegap2"
+  #[[params.social]]
+    #name = "reddit"
+    #url  = "https://www.reddit.com/user/Fillthegap2"
 
   [[params.social]]
     name = "telegram"
@@ -132,12 +132,12 @@ disableHugoGeneratorInject = false
   [languages.en]
     subtitle  = ""
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">License</a>'
-
+    copyright = '<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">License</a>'
+    
   [languages.fr]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = ""
     weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">L</a>'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener"></a>'
 
 [menu]
   [[menu.main]]
@@ -151,4 +151,8 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "photographs"
     name       = "Photographs"
-    url        = "photographs/"
+    url        = "https://500px.com/p/alirezab806?view=photos"
+  #[[menu.main]]
+    #identifier = "blog"
+    #name       = "Blog"
+    #url        = "https://drubles.blogspot.com/"
